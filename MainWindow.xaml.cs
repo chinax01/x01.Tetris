@@ -20,9 +20,6 @@ namespace x01.Tetris
 		public int Row, Col;
 	}
 
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
 	public partial class MainWindow : Window
 	{
 		const int MaxRow = 20;
@@ -350,8 +347,6 @@ namespace x01.Tetris
 		List<int> rows = new List<int>();
 		void ClearLines()
 		{
-			//if (isStarted != false) return;
-
 			cols.Clear();
 			rows.Clear();
 
